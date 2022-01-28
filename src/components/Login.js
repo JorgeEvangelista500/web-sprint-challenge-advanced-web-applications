@@ -36,6 +36,7 @@ const Login = () => {
             <h2>Please enter your account information.</h2>
             <div>
                 <form onSubmit={login}>
+                    <label>Username</label>
                     <input 
                         id='username'
                         type='text'
@@ -43,6 +44,7 @@ const Login = () => {
                         value={credentials.username}
                         onChange={handleChange}
                     />
+                    <label>Password</label>
                     <input
                         id='password'
                         type='password'
