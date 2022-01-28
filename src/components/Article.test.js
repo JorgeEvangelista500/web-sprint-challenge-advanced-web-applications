@@ -12,7 +12,7 @@ const testArticle = {
     author: '',
     headline: "headline", 
     createdOn: '2022-08-09T18:02:38-04:00',
-    summary: "this is thesummary", 
+    summary: "this is the summary", 
     body: "This is the body"  
 }
 
