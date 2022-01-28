@@ -52,7 +52,7 @@ const Login = () => {
                         value={credentials.password}
                         onChange={handleChange}
                     />
-                    <button>Log in</button>
+                    <button id="submit">Log in</button>
                 </form>
                 <p id='error'>{errors}</p>
             </div>
